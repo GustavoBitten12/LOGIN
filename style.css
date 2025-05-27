@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: arial,sans-serf;
+}
+
+body{
+
+    height: 100vh;
+
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.login-container {
+
+    background-color:linear-gradient(to bottom right,#00c6ff, #0072ff) ;
+    padding: 40px 30px;
+    border-radius: 30px;
+    width: 320px;
+    box-shadow: 0 0 30px rgba(0,0,0,0,0,5);
+}
+
+.login-box{
+
+    text-align: center;
+
+}
+
+
+.user-avatar i {
+    
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input{
+    width: 100%;
+    padding:12px 40px 12px 15px ;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+.icon{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color: #00aaff;
+}
+
+.forget-password {
+
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forget-password a {
+
+    font-size: 0.9em;
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    background: #00bfff;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.create-account{
+
+    text-align: center;
+}
+
+.create-account p {
+    color: white;
+    font-size: 0;
+
+}
